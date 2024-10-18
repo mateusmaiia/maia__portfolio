@@ -175,7 +175,9 @@ img {
 }
 
 /* Active link */
-
+.active-link{
+  background-color: var(--first-color)
+}
 
 /*=============== HOME ===============*/
 /*===== PERFIL =====*/
