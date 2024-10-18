@@ -919,3 +919,23 @@ img {
     right: 4rem
   }
 }
+
+/* Nav para dispositivos de tamanho médio (maior flexibilidade) */
+/* @media screen and (min-width: 768px) and (max-width: 1499px) {
+  .nav {
+    width: max-content;
+    padding: 1.5rem 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    right: initial;
+    top: initial;
+    bottom: 1.5rem;
+    margin-inline: auto;
+  }
+
+  .nav__list {
+    flex-direction: row;
+    column-gap: 1.25rem;
+    justify-content: center;
+  }
+} */
