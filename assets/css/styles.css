@@ -248,6 +248,7 @@ img {
   justify-center: center;
   align-items: center;
   column-gap: .5rem;
+  margin-bottom: 1rem
 }
 
 .info__image{
