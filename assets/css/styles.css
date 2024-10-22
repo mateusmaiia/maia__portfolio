@@ -17,7 +17,7 @@
          -> Choose any color 
          -> Copy the color mode (HSL)
   */
-  --hue: 358;
+  --hue: 243;
   --first-color: hsl(var(--hue), 80%, 49%);
   --first-color-alt: hsl(var(--hue), 76%, 45%);
   --white-color: hsl(0, 0%, 98%);
@@ -261,7 +261,7 @@ img {
 }
 
 .info__img{
-  width: 140px;
+  width: 145px;
   justify-self: center;
   align-self: flex-end;
 }
@@ -315,8 +315,9 @@ img {
 }
 
 .about__img{
-  width: 250px;
+  width: 170px;
   justify-self: center;
+  margin-top:20px;
   transform: translateY(-2.5rem);
 }
 
@@ -374,6 +375,25 @@ img {
   background-color: var(--first-color-alt);
 }
 
+.whatsapp-button {
+  margin-top: 10px;
+  background-color: #25D366;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid #fff;
+  color: white;
+  text-decoration: none;  
+  padding: 1.25rem 2.5rem;
+  font-weight: var(--font-semi-bold);
+  border-radius: 4rem;
+  font-size: 16px;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebe5b; /* cor mais escura no hover */
+  border-color: #ccc;        /* muda a cor da borda no hover */
+}
 /*=============== PROJECTS ===============*/
 .projects__card{
   background-color: var(--container-color);
@@ -778,7 +798,7 @@ img {
   }
 
   .perfil__img{
-    width: 450px;
+    width: 1000px;
   }
 
   .perfil__data{
