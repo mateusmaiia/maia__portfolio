@@ -192,7 +192,7 @@ img {
 }
 
 .perfil__img{
-  width: 250px;
+  width: 370px;
   position: absolute;
   justify-self: center;
   align-self: flex-end;
@@ -697,6 +697,8 @@ img {
     width: max-content;
   }
 
+
+
   .nav__list {
     column-gap: 1.25rem;
   }
@@ -716,6 +718,17 @@ img {
   .nav__list {
       column-gap: 1.25rem;
   }
+
+  .perfil__img{
+    width: 350px;
+  }
+
+  .about__img{
+    width: 150px;
+    justify-self: bottom;
+    margin-top: 50px
+  }
+
 
   .home__container,
   .projects__container,
@@ -740,6 +753,13 @@ img {
   .services__container {
       grid-template-columns: repeat(2, 350px);
   }
+
+  .about__img{
+    width: 150px;
+    justify-self: bottom;
+    margin-top: 50px
+  }
+
 
   .experience__container {
       grid-template-columns: initial;
@@ -786,6 +806,8 @@ img {
       margin-bottom: 4rem;
   }
 
+
+  
   .home__container{
       grid-template-columns: 280px 560px 280px;
       align-items: stretch;
